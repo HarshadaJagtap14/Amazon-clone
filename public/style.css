@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo {
+    height: 55px;
+    width: 128px;
+}
+ .logo {
+    background-image: url("images/amazon_logo.jpg");
+    background-size:cover;
+    height: 55px;
+    width: 120px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*box2*/
+.add1{
+    margin: 3px; 
+    color:#cccccc;
+    font-size:small;
+    
+}
+.locationicon{
+    display:flex;
+}
+.add2{
+    padding-left:5px ;
+    margin:3px;
+}
+/*box3*/
+.search{
+    display: flex;
+    width:450px;
+    height:35px;
+}
+.search_input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search_icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color:rgb(255, 204, 0);
+    border-top-right-radius:15%;
+    border-bottom-right-radius: 15%;   
+}
+.search:hover{
+    border:3px solid orange;
+}
+.select{
+    width:50px;
+    background-color: #f3f3f3;  
+    border-top-left-radius:15%;
+    border-bottom-left-radius: 15%;
+    border: none;
+}
+.search_input{
+    width:100%;
+    font-size:medium;
+    border: none;
+}
+/*box4*/
+span{
+    font-size:10px;
+}
+.nav2{
+    font-size :0.85rem;
+    font-weight:700;
+}
+/*box 5*/
+.addto_cart{
+    display: flex;
+}
+.cart2{
+    padding: top 10px; 
+}
+/* panel*/
+.panel{
+    height:35px;
+    background-color:rgb(16, 16, 49);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+/*main_section*/
+.main_section{
+    background-image:url("images/beauty_products.jpg");
+    background-size: cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg_main{
+    color:black;
+    background-color:white;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+a{
+    color:navy;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:red;
+}
+/*shopping*/
+.shopping{
+    display: flex;
+    background:linear-gradient(rgb(249, 212, 189),rgb(218, 199, 205),rgb(197, 192, 194));
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.box {
+    height:400px;
+    width:22.5%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin: 15px;
+}
+.box-img{
+    height:270px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 10px;
+}
+.img{
+    height:240px;
+}
+
+.box_img{
+    display: inline-block;
+    height:70px;
+    margin-top:35px;
+    padding: 0 0 36px;
+    position: relative;
+    width:130px;
+    background-size: cover;
+    justify-content: space-evenly;
+    font-size: small;
+    
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.footpanel2{
+    background-color: #243447;
+    color:white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul a{
+    display: block;
+    color:#dddddd;
+    padding: 4px; 
+}
+ul p{
+    font-size: larger;
+    margin-top: 35px;}
+.footpanel3{
+     background-color:#243447;
+     color:white;
+     border-top:0.5px solid white;
+     display: flex;
+     justify-content: center;
+     align-items:center;     
+     height: 70px;
+}
+.logo1{
+    margin: 10px;
+    background-image: url("logo.jpeg");
+    width:180px;
+}
+.footpanel4{
+    background-color:rgb(16, 16, 49);
+    color: white;
+    height: 200px;
+    width:100%;
+}
+.pages{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 60px;
+}
+.copyright a {
+    color:#dddddd;
+    padding: 8px; 
+}
+.copyright a:hover{
+    color:red;
+}  
